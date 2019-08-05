@@ -74,7 +74,7 @@ textarea:focus {
 }
 .block {
   width: 90%;
-  margin: 40px auto 0;
+  margin: 50px auto 0;
 }
 .block.one_column {
   width: 48%;
@@ -88,9 +88,7 @@ textarea:focus {
 .block.two_column .left {
   width: 50%;
 }
-.block.three_column .right,
-.block.three_column .center
-.block.three_column .left {
+.block.three_column > div {
   width: calc(100% / 3);
 }
 .indent {
@@ -109,7 +107,6 @@ textarea:focus {
   right: 0;
   width: 80px;
   height: 640px;
-  border-right: 1px solid #cfd8dc;
   background-color: #fff;
   border-bottom: 1px solid #cfd8dc;
 }
@@ -218,6 +215,7 @@ section.top {
   width: calc(100% - 80px);
   height: 640px;
   display: flex;
+  border-bottom: 1px solid #cfd8dc;
 }
 section.top .main_visual,
 section.top .main_content {
@@ -279,18 +277,22 @@ section.top .slider.slick-initialized {
 
 /*skills*/
 #skills .skill_img {
-  text-align: right;
+  text-align: center;
+  margin: 0 3% 1.5em;
 }
 #skills .skill_img img {
   opacity: 0.8;
 }
+#skills .skill_text {
+  text-align: left;
+  margin: 0 10%;
+}
 
 /*work*/
 #work {
-  background-color: #beeef7;
+  background-color: #f6f6f6;
 }
 #work .box {
-  background-color: #fff;
   border-radius: 7px;
   width: 47%;
   margin: 0 auto;

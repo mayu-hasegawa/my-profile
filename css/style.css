@@ -335,7 +335,6 @@ section.top .slider.slick-initialized {
 }
 #output .list .list_item:hover img {
   transform: scale(0.8,0.9);
-  border-radius: 30px;
   transition: all 0.55s;
 }
 #output .list .list_item p {

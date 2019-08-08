@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
     <title>My profile</title>
-    <meta content="" name="Keywords">
-    <meta content="" name="Description">
+    <meta content="ポートフォリオ,profile" name="Keywords">
+    <meta content="ポートフォリオサイトを作成しました。" name="Description">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
@@ -15,6 +15,7 @@
     <link href="css/slick.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" type="text/javascript"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script src="js/header.js" type="text/javascript"></script>
     <script src="js/validate.js" type="text/javascript"></script>
@@ -47,7 +48,7 @@
   <section class="top">
     <div class="main_content">
       <div class="main_text font_lighter">
-        <h2>Self<br>Introduction</h2>
+        <h2 class="text_animate">Self<br>Introduction</h2>
       </div>
     </div>
     <div class="main_visual">
@@ -64,22 +65,25 @@
   <section id="about">
     <h2 class="section_title">
       <span class="title_main">Profile</span>
-      <span class="title_background">プロフィール</span>
+      <span class="title_sub">プロフィール</span>
     </h2>
-    <div class="block one_column background_circle">
+    <div class="block one_column">
       <p class="indent">主な実績、経験したポジション、担当した業務テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      <div class="circle">
+        <div class="background_circle"></div>
+      </div>
     </div>
   </section>
 
   <section id="skills">
     <div class="section_title">
       <h2 class="title_main">Skills</h2>
-      <span class="title_background">スキル</span>
+      <span class="title_sub">スキル</span>
     </div>
     <div class="block three_column">
-      <div class="right">
+      <div class="left">
         <div class="skill_img">
-          <img src="./images/index/html.png" alt="">
+          <img src="./images/index/js.png" alt="">
         </div>
         <div class="skill_text">
           <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -93,9 +97,9 @@
           <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
       </div>
-      <div class="left">
+      <div class="right">
         <div class="skill_img">
-          <img src="./images/index/js.png" alt="">
+          <img src="./images/index/html.png" alt="">
         </div>
         <div class="skill_text">
           <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -107,14 +111,14 @@
   <section id="work">
     <div class="section_title">
       <h2 class="title_main">仕事の進め方</h2>
-      <span class="title_background">Work procedures</span>
+      <span class="title_sub">Work procedures</span>
     </div>
     <div class="block two_column">
-      <div class="right box">
+      <div class="left box">
         <p class="box_title">エラー時の対応方法</p>
         <p class="box_detail">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
       </div>
-      <div class="left box">
+      <div class="right box">
         <p class="box_title">確認・確認・確認</p>
         <p class="box_detail">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
       </div>
@@ -124,9 +128,9 @@
   <section id="pr">
     <div class="section_title">
       <h2 class="title_main">自己PR</h2>
-      <span class="title_background">PR</span>
+      <span class="title_sub">PR</span>
     </div>
-    <div class="block">
+    <div class="block one_column">
       <p class="indent">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
     </div>
   </section>
@@ -134,7 +138,7 @@
   <section id="output">
     <div class="section_title">
       <h2 class="title_main">成果物</h2>
-      <span class="title_background">Out put</span>
+      <span class="title_sub">Out put</span>
     </div>
     <p class="center output_text">直近半年以内の成果物をご紹介いたします。</p>
     <ul class="block list">
@@ -143,7 +147,7 @@
         <p>app-ads-gladcube.com</p>
       </li>
       <li class="list_item">
-        <img src="./images/index/output_img01.png" alt="">
+        <img src="./images/index/output_img02.png" alt="">
         <p>株式会社a.Un様LP</p>
       </li>
       <li class="list_item">
@@ -152,7 +156,8 @@
       </li>
       <li class="list_item">
         <a href="https://github.com/mayu-hasegawa/" title="Github URL">
-          <img src="./images/index/Octocat.png" alt="">
+          <img src="./images/index/output_img04.png" alt="">
+          <p class="large_text">Click here!</p>
           <p>Github URL</p>
         </a>
       </li>
@@ -162,18 +167,16 @@
   <section id="contact">
     <div class="section_title">
       <h2 class="title_main">お問い合わせ</h2>
-      <span class="title_background">Contact</span>
+      <span class="title_sub">Contact</span>
     </div>
     <div class="block contact_info">
       <form id="apply_form" class="" action="" method="post">
-          <div><span id="error_msg"></span></div>
-          <div class="error_msg_bottom"></div>
           <div class="input_area">
-              <label for="name"><span>お名前</span><span class="alert">*</span></label>
+              <label for="name"><span>お名前</span><span class="alert">*</span><span class="error_msg"></span></label>
               <input type="text" id="name" name="name" class="required input_text">
           </div>
           <div class="input_area">
-              <label for="email"><span>メールアドレス</span><span class="alert">*</span></label>
+              <label for="email"><span>メールアドレス</span><span class="alert">*</span><span class="error_msg"></span></label>
               <input type="email" id="email" name="email" class="required input_text">
           </div>
           <div class="input_area">
@@ -181,16 +184,22 @@
               <input type="tel" id="" name="" class="input_text">
           </div>
           <div class="input_area">
-              <label for="comment"><span>お問合せ内容</span><span class="alert">*</span></label>
+              <label for="comment"><span>お問合せ内容</span><span class="alert">*</span><span class="error_msg"></span></label>
               <textarea name="comment" id="comment" cols="30" rows="10"  class="required input_text"></textarea>
           </div>
           <div class="button">
               <input type="submit" value="この内容を送信" class="input_submit" disabled="disabled">
           </div>
+          <p class="center">※送信はできません</p>
       </form>
     </div>
   </section>
 
+  <div class="top_link">
+    <a href="#top" class="js_top_link">ページトップへ</a>
+  </div>
+
+  <!-- ここからフッター -->
   <footer class="footer">
     <div class="footer_nav">
       <ul>
@@ -205,22 +214,7 @@
       </div>
     </div>
   </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- ここからフッター -->
   <!-- フッター終わり -->
+
   </body>
 </html>

@@ -33,6 +33,12 @@ $(function() {
     });
   });
 
+  var user_agent = window.navigator.userAgent.toLowerCase();
+  if(user_agent.indexOf('msie') != -1 || user_agent.indexOf('trident') != -1) {
+    $('for_ie').addClass('shown');
+    $('text_animate').addClass('off');
+  }
+
   // カルーセル
   $('.slider').slick({
     autoplay: true,

@@ -275,6 +275,15 @@ section.top .main_text .text_animate {
 section.top .main_text .text_animate.on {
   opacity: 1;
 }
+section.top .main_text .text_animate.off {
+  display: none;
+}
+section.top .main_text .for_ie {
+  display: none;
+}
+section.top .main_text .for_ie.shown {
+  display: inherit;
+}
 section.top .slider {
   display:none;
 }

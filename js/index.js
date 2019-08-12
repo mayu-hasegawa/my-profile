@@ -24,7 +24,7 @@ $(function() {
     }
   });
 
-  $(window).on('load', function(){
+  $(function(){
     $('.text_animate span').each(function (index, element) {
       var new_element = $(element).css({ opacity: 0 });
       $(title).addClass('on');
